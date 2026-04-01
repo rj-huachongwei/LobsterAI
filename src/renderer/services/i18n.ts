@@ -872,6 +872,13 @@ const translations: Record<LanguageType, Record<string, string>> = {
     nimQChatServerIdsHint: '指定要订阅的服务器 ID，多个用逗号分隔。留空则自动订阅所有已加入的服务器。',
     neteaseBeeChanClientIdPlaceholder: '小蜜蜂助理Client ID',
 
+    // IM 设置页面 - POPO 配置
+    imPopoAesKeyLengthWarning: 'AES Key 需要为 32 个字符',
+    imPopoAesKeyLengthCurrent: '当前',
+    imPopoWebhookPlaceholder: '外部域名（可选，不填则自动检测本机 IP）',
+    imPopoUserIdPlaceholder: '输入用户 ID 后回车添加',
+    imPopoGroupIdPlaceholder: '输入群组 ID 后回车添加',
+
     // IM 设置页面国际化
     imAdvancedSettings: '高级设置',
     imPairingApproval: '配对码审批',
@@ -2058,6 +2065,13 @@ const translations: Record<LanguageType, Record<string, string>> = {
     nimQChatServerIdsPlaceholder: 'Leave empty to auto-discover all joined servers',
     nimQChatServerIdsHint: 'Specify server IDs to subscribe, separated by commas. Leave empty to auto-subscribe all joined servers.',
     neteaseBeeChanClientIdPlaceholder: 'Netease Bee IM Client ID',
+
+    // IM settings page - POPO config
+    imPopoAesKeyLengthWarning: 'AES Key must be 32 characters',
+    imPopoAesKeyLengthCurrent: 'current',
+    imPopoWebhookPlaceholder: 'External domain (optional, auto-detects local IP)',
+    imPopoUserIdPlaceholder: 'Enter user ID and press Enter',
+    imPopoGroupIdPlaceholder: 'Enter group ID and press Enter',
 
     // IM settings page i18n
     imAdvancedSettings: 'Advanced Settings',
